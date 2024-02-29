@@ -1,6 +1,6 @@
 # Spotify Clone
 
-Spotify clone that incorporates some basic functionality like signin / signup, payment handling, playing audio and replicates UI.
+Spotify clone that incorporates some basic functionality like signin / signup, payment handling, playing audio. It also replicates Spotify UI.
 
 Technologies used through the course: **NextJS**, **React**, **Typescript**, **Supabase**, **Stripe**, **TailwindCSS**
 
