@@ -1,12 +1,12 @@
 "use client";
 
 import toast from "react-hot-toast";
-import { use, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import useSubscribeModal from "@/hooks/useSubscribeModal";
 import { useUser } from "@/hooks/useUser";
 import { postData } from "@/libs/helpers";
-import { useRouter } from "next/navigation";
 import Button from "@/components/Button";
 
 const AccountContent = () => {
@@ -26,7 +26,7 @@ const AccountContent = () => {
     setLoading(true);
 
     try {
-      const { url, error } = await postData({
+      const { url } = await postData({
         url: "/api/create-portal-link",
       });
 

@@ -5,13 +5,13 @@ import toast from "react-hot-toast";
 import uniqid from "uniqid";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 import useUploadModal from "@/hooks/useUploadModal";
-import Modal from "./Modal";
-import { useState } from "react";
-import Input from "./Input";
-import Button from "./Button";
 import { useUser } from "@/hooks/useUser";
+import Button from "./Button";
+import Modal from "./Modal";
+import Input from "./Input";
 
 const UploadModal = () => {
   const [isLoading, setIsLoading] = useState(false);

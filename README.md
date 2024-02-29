@@ -13,8 +13,8 @@ You need to have Stripe running for local testing. Follow the [following steps](
 - Run `stripe listen --forward-to localhost:3000/api/webhooks` in Powershell
 - The command above will provide you a webhook secret. You need to insert it to the `.env.local` STRIPE_WEBHOOK_SECRET variable
 
-![Main Page](image.png)
+![Main Page](screenshots/app-screenshot1.png)
 
-![Search Page](image-1.png)
+![Search Page](screenshots/app-screenshot2.png)
 
-![Add Song Page](image-2.png)
+![Add Song Page](screenshots/app-screenshot3.png)
